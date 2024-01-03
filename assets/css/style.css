@@ -135,3 +135,10 @@ nav {
     }
     
 }
+
+/* This for the larger devices where a mouse would be used such as laptops. It interacts with the navbar elements*/
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
+}
