@@ -97,3 +97,29 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
+
+/* CSS for Media Query - Device repsonsiveness - Tablets and larger (768px and up)*/
+@media screen and (min-width: 768px) {
+    /* Header - navbar always displayed */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+    /* This makes the page tabs align in a row rather than ontop of one another*/
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    /* This hides the X (label - checkox toggle) as wedo not need it */
+    .nav-toggle-label {
+        display: none;
+    }
+    
+}
