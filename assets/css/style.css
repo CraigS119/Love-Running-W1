@@ -121,5 +121,17 @@ nav {
     .nav-toggle-label {
         display: none;
     }
+
+    /*This makes the logo bigger on larger screen*/
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* this makes the main content displayed as the header is now bigger on larger devices due to settings in #logo*/
+    main {
+    margin-top: 79px
+    }
     
 }
