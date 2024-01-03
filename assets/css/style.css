@@ -54,8 +54,20 @@ main {
 }
 
 /* Footer */
-footer {
-    background-color: orange;
+/* this has been changed as the footer in this project only contains social elements*/
+/*This is now the section of the footer (#social-networks and #social-networks i)*/
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 #menu {
