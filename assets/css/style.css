@@ -1,10 +1,18 @@
 /* The * applies styles to all elements on the page. It is important that this is at the very top as the order of the styling rules are important*/
+/*General Styles*/
 * {
 padding: 0;
 margin: 0;
 box-sizing: border-box;
 }
+body {
+min-height: 100vhdisplay: flex;
+flex-direction: column;
+/* Generic Project Styles */
+color: #3a3a3a;
 
+
+}
 
 /* Header */
 header {
@@ -13,6 +21,8 @@ header {
 /* Main Content */
 main {
     background-color: lightblue;
+    /* main main element take up any surplus space to push fotter down*/
+    flex: 1 0 auto;
 }
 /* Footer */
 footer {
