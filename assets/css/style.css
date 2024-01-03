@@ -1,0 +1,20 @@
+/* The * applies styles to all elements on the page. It is important that this is at the very top as the order of the styling rules are important*/
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+
+/* Header */
+header {
+    background-color: lightcoral;
+}
+/* Main Content */
+main {
+    background-color: lightblue;
+}
+/* Footer */
+footer {
+    background-color: orange;
+}
