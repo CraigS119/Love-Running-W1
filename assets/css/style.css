@@ -184,3 +184,51 @@ nav {
         border-bottom: 1px solid #3a3a3a;
     }
 }
+
+/* styling for the reasons section of the page */
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#benefits-physical>div,
+#benefits-mental>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+/*this is the styling the for the circle image in the reasons section - note in the html it is 2 divs with 2 ids*/
+#circle-cover-bg {
+    height: 90vw;
+    width: 90vw;
+    /* it goes url, no repeat, focus on horizontal (across), focus on vertical (going down), cover the whole div*/
+    background: url("../images/reasons-image.webp") no-repeat top center/cover;
+    margin-bottom: 20px;
+    /*this is how you then make it a circle*/
+    border-radius: 50%;
+    /*this is to make sure it doesn't take up too much space on bigger devices*/
+    max-width: 300px;
+    max-height: 300px;
+}
+
+    /* this helps position it correctly */
+    #benefits-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
