@@ -83,6 +83,15 @@ main {
     color: #ffffff;
 }
 
+/* gallery page*/
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+  line-height:0;  
+}
 /* Footer */
 /* this has been changed as the footer in this project only contains social elements*/
 /*This is now the section of the footer (#social-networks and #social-networks i)*/
@@ -139,6 +148,17 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
+
+/* media query: large or landscape phones (576px and up)*/
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
+
+    /* Header - navbar always displayed */
 
 /* CSS for Media Query - Device repsonsiveness - Tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
@@ -199,6 +219,11 @@ nav {
             text-align: end;
             align-self: flex-end;
         }
+
+        /*gallery*/
+        #photos {
+            column-count: 3;
+        }
     
 }
 
@@ -206,6 +231,11 @@ nav {
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+
+    /*gallery*/
+    #photos {
+        column-count: 4;
     }
 }
 
