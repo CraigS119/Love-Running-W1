@@ -26,6 +26,12 @@ h1, h2, h3 {
     color: #252525;
 }
 
+/* why hide headings instead of removing them?
+This makes it available to search engines but not visible to the viewer*/
+.hidden-heading {
+    display: none;
+}
+
 
 /* Header */
 header {
@@ -300,7 +306,7 @@ nav {
         /* this creates a grid
         a grid of meetup times over the background image*/
         border: 2px solid white;
-        
+
       }
 
       #times h3 {
